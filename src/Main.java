@@ -11,8 +11,24 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int age;
+    String firstName;
+    String favouriteFood;
 
+    System.out.println("Please enter you age: ");
+    age = scan.nextInt();
 
+    System.out.println("Please enter first name:");
+    scan.nextLine();
+    firstName = scan.nextLine();
+
+    System.out.println("Please enter favourite food: ");
+    favouriteFood = scan.nextLine();
+
+    System.out.println(" Age: " + age);
+    System.out.println(" firstName: " + firstName);
+    System.out.println(" favouriteFood: " + favouriteFood);
 
 
     }
